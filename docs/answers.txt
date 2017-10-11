@@ -1,0 +1,39 @@
+a) $ git push
+Counting objects: 7, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (7/7), 880 bytes | 440.00 KiB/s, done.
+Total 7 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/dillonpren/Assignment1.git
+   fbdbe93..fbe9308  master -> master
+
+b) 9 commits. git rev-list --all --count
+
+c) .gitignore changed Wed Sep 27 16:31:42 2017 -0500. git log --follow .gitignore
+
+d) commit cb30d72a3d94c108f393c163a35c1cc9bf18ffca
+   commit 36a8e55e4bbdd171ab57d979e1a802d740f2db9b
+
+e) Branches allow experimental features and bug fixes to be tried without
+   comprimising the main branch. Also multiple branches allow multiple
+   of these features to be tested out at the same time.
+
+f) Git status shows you all current files and directories within the
+   working directory, even ones that are not being tracked by Git.
+   Git log displays a history of committed changes to the repository as 
+   well as the associated commit messages.
+
+g) git lot --follow Weapon.h
+
+h) git log --grep="file"
+
+i) Iheritance is an "is-a" relationship in which one class inherits properties
+   from a "parent" class. Ex: A Dog class may inherit from an Animal class.
+   
+   Polymorhpism is a feature in which a pointer of a "parent" class type
+   in an inheritance relationship may be used to point to an object in a 
+   child class.
+
+   Encapsulation is keeping data together with the functions that interact with
+   them such as a get() and set() function for a private variable in a class.
