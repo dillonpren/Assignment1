@@ -1,3 +1,4 @@
+6.
 a) $ git push
 Counting objects: 7, done.
 Delta compression using up to 4 threads.
@@ -37,3 +38,9 @@ i) Iheritance is an "is-a" relationship in which one class inherits properties
 
    Encapsulation is keeping data together with the functions that interact with
    them such as a get() and set() function for a private variable in a class.
+
+7.	This prototype uses both polymorphism and encapsulation. Polymorphism is 	found in the main function where a pointer of type Weapon is used to
+	point to the various types of weapons that are all children of the
+	Weapon class. Encapsulation is seen within the Weapon class and all of
+	its children because all variables are set as protected, so they
+	can only be accessed by functions in the parent or child classes.
