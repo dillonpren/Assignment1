@@ -31,6 +31,7 @@ public:
      * @param name Weapon's name
      * @param hitPoints Weapon's hitpoints
      */
+	Weapon() {};
     Weapon(std::string name, double hitPoints) : name(name), hitPoints(hitPoints){};
     /**
      * Detructor
